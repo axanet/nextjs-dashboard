@@ -1,6 +1,7 @@
 import { sql } from '@vercel/postgres';
 import {
   User,
+  UsersTable,
 } from './definitions';
 import { unstable_noStore as noStore } from 'next/cache';
 
