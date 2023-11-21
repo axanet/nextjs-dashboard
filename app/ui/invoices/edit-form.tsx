@@ -9,7 +9,7 @@ import {
   UserCircleIcon,
 } from '@heroicons/react/24/outline';
 import { Button } from '@/app/ui/button';
-import { updateInvoice } from '@/app/lib/actions';
+import { updateInvoice } from '@/app/lib/invoices-actions';
 import { useFormState } from 'react-dom';
 
 export default function EditInvoiceForm({
